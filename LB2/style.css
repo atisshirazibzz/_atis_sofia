@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+*{
+    color: floralwhite;
+}
+body{
+    margin: 0;
+    padding: 0;
+    background: black;
+    box-sizing: border-box;
+    font-style: normal;
+    font-family: "Open Sans";
+}
+
+section{
+    position: relative;
+    width: 75%;
+    min-height: 95vh;
+    padding: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+header{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px 90px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header .logo{
+    position: relative;
+    max-width: 150px;
+}
+
+header ul{
+    position: relative;
+    display: flex;
+}
+
+header ul li{
+    list-style: none;
+}
+
+header ul li a {
+    display: inline-block;
+    font-weight: normal;
+    margin-left: 40px;
+    text-decoration: none;
+}
+
+.content{
+    position: relative;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.content .textBox{
+    position: relative;
+    max-width: 600px;
+}
+.content .textBox h2{
+    font-size: 4em;
+    font-weight: bold;
+}
+
+.content .textBox a{
+    display: inline-block;
+    margin-top: 40px;
+    padding: 8px 20px;
+    background: floralwhite;
+    color: black;
+    border-radius: 40px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    text-decoration: none;
+}
+.startbild{
+    height: 600px;
+    justify-content: flex-start;
+    display: flex;
+}
+
+
+
+
+
+
+}
