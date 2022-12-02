@@ -10,6 +10,7 @@ body{
     box-sizing: border-box;
     font-style: normal;
     font-family: "Open Sans";
+
 }
 
 section{
@@ -131,4 +132,70 @@ header ul li a:hover {
 footer{
     text-align: center;
     padding-bottom: 20px;
+}
+
+.container{
+    width: 600px;
+    max-width: 600px;
+    margin: 1 rem;
+    padding: 2 rem;
+    box-shadow: 0 0 40px rgba(0, 0, 0, 0.2);
+    border-radius: var(--border-radius);
+    border: 5px solid;
+    border-color: floralwhite;
+}
+.container,
+.form__input,
+.form__button{
+    font-size: 24px;
+}
+
+.form > *:first-child{
+    margin-top: 0;
+}
+
+.form__title{
+  margin-bottom: 2rem;
+    text-align: center;
+}
+
+
+.form > *:last-child{
+    margin-bottom: 0;
+}
+
+.form__message{
+  text-align: center;
+    margin-bottom: 1rem;
+}
+
+.form__message--success{
+    color: green;
+}
+
+.form__message--error{
+    color: red;
+}
+
+.form__input-group{
+    margin-bottom: 1rem;
+}
+
+.form__input {
+    display: block;
+    width: 100%;
+    padding: 0.75rem;
+    box-sizing: border-box;
+    border-radius: var(--border-radius);
+    border: 1px solid floralwhite;
+    outline: none;
+    background: #18181A;
+}
+.form__input:focus{
+    background: deeppink;
+}
+
+.form__input--error{
+    color: red;
+    border-color: red;
 }
