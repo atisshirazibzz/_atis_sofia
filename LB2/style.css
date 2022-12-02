@@ -6,7 +6,7 @@
 body{
     margin: 0;
     padding: 0;
-    background: black;
+    background: #18181A;
     box-sizing: border-box;
     font-style: normal;
     font-family: "Open Sans";
@@ -30,7 +30,7 @@ header{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background: black;
+    background: #18181A;
     z-index: 1000;
 
 }
