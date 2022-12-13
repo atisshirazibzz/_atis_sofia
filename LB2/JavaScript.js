@@ -1,7 +1,24 @@
-const cookie = document.cookie;
-if (cookie) {
+// const cookie = document.cookie;
 
-}
+// if (cookie) {
+
+// }
+/*
+const http = require('http');
+
+
+const hostname = '127.0.0.1';
+const port = 3000;
+
+const server = http.createServer((req, res) => {
+  res.statusCode = 200;
+  res.setHeader('Content-Type', 'text/html');
+  res.end('<strong>Hallo</strong>');
+});
+
+server.listen(port, hostname, () => {
+  console.log(`Server running at http://${hostname}:${port}/`);
+});*/
 
 
 function login(){
@@ -34,8 +51,8 @@ function login(){
         return false;
     }
     if (dieserUser["pwd"]==passwordLogin) {
-        document.cookie = "user=Atis; expires,; path=/";
-        location.href = "file:///Users/asi/Desktop/desktop/schule/2022:23/LB%20Projekte/_atis_sofia/LB2/index.html";
+        document.cookie = "user=Atis; expires="+(Date.now()+100000000000)+"; path=/";
+        location.href = "index.html";
     }
 }
 
